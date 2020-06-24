@@ -54,6 +54,7 @@ public class RoundTextView extends AppCompatTextView implements IRoundHelper {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         if(helper.isPropertyChanged()) {
+            helper.setPropertyChanged(false);
             setBackground(helper.generateBackgroundSelector());
         }
     }

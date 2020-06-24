@@ -47,6 +47,7 @@ public class RoundRelativeLayout extends RelativeLayout implements IRoundHelper 
         super.onLayout(changed, left, top, right, bottom);
         helper.layoutView(getHeight());
         if(helper.isPropertyChanged()) {
+            helper.setPropertyChanged(false);
             setBackground(helper.generateBackgroundSelector());
         }
     }
