@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundHelper">
+        <!-- 圆角矩形背景色 -->
+        <attr name="rv_bg_color" format="color" />
+        <!-- 圆角矩形背景色press -->
+        <attr name="rv_bg_press_color" format="color" />
+        <!-- 圆角弧度,单位dp-->
+        <attr name="rv_stroke_width" format="dimension" />
+        <!-- 圆角边框颜色-->
+        <attr name="rv_stroke_color" format="color" />
+        <!-- 圆角边框颜色press -->
+        <attr name="rv_stroke_press_color" format="color" />
+        <!-- 圆角弧度,单位dp,TopLeft-->
+        <attr name="rv_corner_tl" format="dimension" />
+        <!-- 圆角弧度,单位dp,TopRight-->
+        <attr name="rv_corner_tr" format="dimension" />
+        <!-- 圆角弧度,单位dp,BottomLeft-->
+        <attr name="rv_corner_bl" format="dimension" />
+        <!-- 圆角弧度,单位dp,BottomRight-->
+        <attr name="rv_corner_br" format="dimension" />
+        <!-- 圆角弧度是高度一半 -->
+        <attr name="rv_half_corner_height" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundImageView">
+        <attr name="rv_bg_color" />
+        <attr name="rv_bg_press_color" />
+        <attr name="rv_stroke_width" />
+        <attr name="rv_stroke_color" />
+        <attr name="rv_stroke_press_color" />
+        <attr name="rv_corner_tl" />
+        <attr name="rv_corner_tr" />
+        <attr name="rv_corner_bl" />
+        <attr name="rv_corner_br" />
+        <attr name="rv_half_corner_height" />
+    </declare-styleable>
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="rv_bg_color" />
+        <attr name="rv_bg_press_color" />
+        <attr name="rv_stroke_width" />
+        <attr name="rv_stroke_color" />
+        <attr name="rv_stroke_press_color" />
+        <attr name="rv_corner_tl" />
+        <attr name="rv_corner_tr" />
+        <attr name="rv_corner_bl" />
+        <attr name="rv_corner_br" />
+        <attr name="rv_half_corner_height" />
+    </declare-styleable>
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rv_bg_color" />
+        <attr name="rv_bg_press_color" />
+        <attr name="rv_stroke_width" />
+        <attr name="rv_stroke_color" />
+        <attr name="rv_stroke_press_color" />
+        <attr name="rv_corner_tl" />
+        <attr name="rv_corner_tr" />
+        <attr name="rv_corner_bl" />
+        <attr name="rv_corner_br" />
+        <attr name="rv_half_corner_height" />
+    </declare-styleable>
+    <declare-styleable name="RoundEditText">
+        <attr name="rv_bg_color" />
+        <attr name="rv_bg_press_color" />
+        <attr name="rv_stroke_width" />
+        <attr name="rv_stroke_color" />
+        <attr name="rv_stroke_press_color" />
+        <attr name="rv_corner_tl" />
+        <attr name="rv_corner_tr" />
+        <attr name="rv_corner_bl" />
+        <attr name="rv_corner_br" />
+        <attr name="rv_half_corner_height" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundTextView">
+        <attr name="rv_bg_color" />
+        <attr name="rv_bg_press_color" />
+        <attr name="rv_stroke_width" />
+        <attr name="rv_stroke_color" />
+        <attr name="rv_stroke_press_color" />
+        <attr name="rv_corner_tl" />
+        <attr name="rv_corner_tr" />
+        <attr name="rv_corner_bl" />
+        <attr name="rv_corner_br" />
+        <attr name="rv_half_corner_height" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundButton">
+        <attr name="rv_bg_color" />
+        <attr name="rv_bg_press_color" />
+        <attr name="rv_stroke_width" />
+        <attr name="rv_stroke_color" />
+        <attr name="rv_stroke_press_color" />
+        <attr name="rv_corner_tl" />
+        <attr name="rv_corner_tr" />
+        <attr name="rv_corner_bl" />
+        <attr name="rv_corner_br" />
+        <attr name="rv_half_corner_height" />
+    </declare-styleable>
+</resources>
